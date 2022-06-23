@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #EC715F;
+}
+
+.container {
+  width: 1024px;
+}
+
+.logo {
+ position: absolute;
+ top: 5px;
+ height: 60px;
+}
+
+.navigation {
+ list-style: none;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.nav {
+  padding: 30px;
+  color: #fff;
+}
+
+.main-visual {
+  height: 650px;
+  padding-top: 200px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.title {
+  font-size: 64px;
+  color: #FAFAFA;
+}
+
+.text {
+  font-size: 20px;
+  color: #FAFAFA;
+  padding-top: 10px;
+}
+
+.portfolio {
+  width: 100%;
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+.theme {
+  width: 920px;
+  padding-top: 90px;
+  margin: 0 auto;
+  font-size: 32px;
+  background-color: #00000;
+}
+
+.border {
+  display: flex;
+  justify-content: center;
+}
+
+.border-top {
+  border-top: solid 3px #EC715F;
+}
+
+.theme-detail {
+ width:920px;
+ margin: 0 auto;
+ padding: 30px;
+ font-size: 16px;
+ color: #00000;
+}
+
+.box-item {
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box1 {
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height:250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height:250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+}
+
+.box3 {
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height:250px;
+  margin-bottom: 10px;
+}
+
+.box4 {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height:250px;
+  margin-right: 10px;
+
+}
+.box5 {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height:250px;
+  margin-right: 10px;
+}
+
+.box6 {
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height:250px;
+}
+
+.feature {
+  width: 980px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.information {
+  width: 980px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.strength i {
+  font-size: 60px;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #00000;
+}
+
+.strength h3 {
+  padding: 10px;
+}
+
+.strength:last-child {
+  margin-right: 0;
+}
+
+.profile {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile-img {
+  text-align: left;
+  border-radius: 250px;
+}
